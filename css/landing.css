@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.contact-us {
+  /* make it stay at the top left corner */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 0 0 0.5rem;
+  font-size: smaller;
+}
+
+.center-horizontally {
+  display: flex;
+  justify-content: center;
+}
+
+.center-vertically {
+  display: flex;
+  align-items: center;
+}
+
+.branding {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+.image {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+
+  width: 100%;
+  display: block;
+  vertical-align: middle;
+  border: 0;
+  object-fit: initial;
+  max-height: none;
+}
